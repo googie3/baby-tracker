@@ -12,7 +12,7 @@ def check_password():
         st.title("🔒 Family Access Only")
         password_guess = st.text_input("Enter Family Password", type="password")
         if st.button("Unlock Dashboard"):
-            if password_guess == "FamilyPassword123": # Change this to your password
+            if password_guess == "Zoey1391!": # Change this to your password
                 st.session_state["password_correct"] = True
                 st.rerun()
             else:
